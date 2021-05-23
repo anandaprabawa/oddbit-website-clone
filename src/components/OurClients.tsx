@@ -14,6 +14,7 @@ const OurClients = (): JSX.Element => {
               <span key={client.name} className="logo mx-4">
                 <Image
                   src={client.image}
+                  alt={client.name}
                   layout="intrinsic"
                   width="80"
                   height="80"
